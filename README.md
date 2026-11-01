@@ -75,11 +75,6 @@ Organizația Asterion Digital Services oferă servicii web, administrare infrast
 
 Infraestructura de comunicații encompass o clădire de birouri cu trei etaje, fiecare având rețeaua locală propriu, comunicarea între ele fiind asigurată prin un segment central de interconectare. Un firewall perimetral controlează accesul către mediul extern, iar serviciile de administrare și monitorizare permit echipei IT să urmărească funcționarea echipamentelor.
 
-## Vedeti tot documentationa
 
-- [Documentație tehnică](./RC-Docs/02_Configuration)
-- [Network Topology Image](./RC-Docs/assets/Topology/NetworkTopology.png)
-
----
 
 *Proiect realizat pentru cursul de Rețele de Calculatoare - Universitatea*
