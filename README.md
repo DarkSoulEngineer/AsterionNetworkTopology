@@ -13,47 +13,15 @@ Proiectul **AsterionNetworkTopology** este o infrastructură rețeană completă
 - **Stații de lucru** și PC-uri pentru teste de securitate
 - **Protocole** implementate: STP, SSH, SNMP, NAT
 
-## Arhitectură de haută poziție
+## Funcționalități principale
 
-```text
-          +---------------------+
-          |   External (Tester) |
-          +----------+----------+
-                     |
-          +----------v----------+
-          |   Router External   |
-          +----------+----------+
-                     |
-          +----------v----------+
-          |      Firewall ASA   |
-          +----------+----------+
-          outside/inside       |
-           _  _  _  _  _  _    |
-         /  _/_/_/_/_/_/_/_/_/  |
-        /  /   |   |   |   |   \
-   +-----+ /    |   |   |   |   \ +------+
-   |Ext -> |      |   |   |   |   |-> ASA  |
-   +-----+  \     |   |   |   |   +------+
-          +--->\----+   +---+-----------+
-                 \              |
-                  \ v            v
-          +----------+      +----------+
-          |   Entry  |      | Floor1   |
-          |  Switch  |      |  Etaj 1  |
-          +----------+      +----------+
-                   |            |
-                   |            |
-          +----------v----------+  +----------+
-          |   Floor2          |  |   Floor3   |
-          |  Etaj 2 (Sec)     |  | Etaj 3 (Admin)|
-          +----------+----------+  +----------+
-                   |            |
-                   v            v
-          +----------+      +----------+
-          | ClientData|      |Syslog   |
-          | Redundant |      |Server   |
-          +----------+      +----------+
-```
+| Temă | Implementare | Documentație |
+|------|-------------|--------------|
+| **STP** | Rapid PVST+ pe Switch1–Switch3 | Secțiunea 7 din documentație |
+| **SSH** | Administrare securizată a routerelor Floor1–3 | Secțiunea 8 din documentație |
+| **SNMP** | Monitorizare centralizată prin SNMP-Monitor | Secțiunea 10 din documentație |
+| **NAT** | Publicare portal HTTP prin ASA | Secțiunea 9 din documentație |
+| **Syslog** | Colectare centralizată pe Floor3 | Secțiunea 11 din documentație |
 
 ## Funcționalități principale
 
