@@ -4,7 +4,7 @@
 
 ## Descriere
 
-Proiectul **AsterionNetworkTopology** este o infrastructură rețeană completă implementată în **Cisco Packet Tracer**, concepută pentru a simula o rețea enterprise pe trei etaje conținând:
+**AsterionNetworkTopology** este un proiect de rețele de calculatoare implementat în **Cisco Packet Tracer**, care simulează o infrastructură enterprise pe trei etaje, având în vedere:
 
 - **Routeri** Cisco 2901 (etaj și perimetru)
 - **Firewall** Cisco ASA 5506-X
