@@ -23,16 +23,6 @@
 | **NAT** | Publicare portal HTTP prin ASA | Secțiunea 9 din documentație |
 | **Syslog** | Colectare centralizată pe Floor3 | Secțiunea 11 din documentație |
 
-## Funcționalități principale
-
-| Temă | Implementare | Documentație |
-|------|-------------|--------------|
-| **STP** | Rapid PVST+ pe Switch1–Switch3 | Secțiunea 7 din documentație |
-| **SSH** | Administrare securizată a routerelor Floor1–3 | Secțiunea 8 din documentație |
-| **SNMP** | Monitorizare centralizată prin SNMP-Monitor | Secțiunea 10 din documentație |
-| **NAT** | Publicare portal HTTP prin ASA | Secțiunea 9 din documentație |
-| **Syslog** | Colectare centralizată pe Floor3 | Secțiunea 11 din documentație |
-
 ## Topologii disponibile
 
 - `NetworkTopology.png` - Topologia completă a infrastructurii
