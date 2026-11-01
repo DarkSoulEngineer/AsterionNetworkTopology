@@ -79,23 +79,6 @@ Fiecare imagine este plasabilă în documentele folosind sintaxa Markdown:
 - **Syslog** centralizează evenimentele de pe toate etajele
 - **MIB Browser** pentru consultarea OID-urilor (uptime, nume dispozitiv)
 
-## Testare și validare
-
-Projektul include teste complete pentru:
-- Conectivitate ICMP între toate componentele
-- Acces SSH pe Floor1, Floor2, Floor3
-- Funcționarea NAT-HTTP extern
-- Redundanță STP (testul de întrerupere/restaurare link)
-- Interogări SNMP (sysUpTime, sysName)
-- Colectare journal Syslog
-
-## Fișiere proiecte
-
-- `proiect.pkt` - Implementarea Cisco Packet Tracer
-- `RC-Docs/01_Enterprise_Network.md` - Documentație generală
-- `RC-Docs/02_Configuration.md` - Configurații CLI complete
-- `RC-Docs/assets/` - Capturi de ecran și imagini
-
 ## Despre Asterion Digital Services
 
 Organizația Asterion Digital Services oferă servicii web, administrare infrastructură IT și evaluare securității sistemelor informatice. Activitatea este distribuită între departamente cu responsabilități distincte: operațiuni corporative, laborator de securitate și administrare tehnică.
